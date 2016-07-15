@@ -26,7 +26,6 @@
   font-size: 1.23em;
   border:none !important;
   padding-top: 25px !important;
-  background-color: transparent !important;
 }
 
 .nav li a {
@@ -74,17 +73,23 @@
 
 .thumbnail {
   background-color: #f1f1f1;
+  padding: 12px !important;
+  margin-bottom: 0px !important;
+}
+
+.thumbail .caption {
+  padding-bottom: 1px !important;
 }
 
 /*------------ Services -----------*/
 
-.adopt-text a{
+.adopt-text a {
   text-align: center;
   text-transform: uppercase;
   line-height: 1.5em;
 }
 
-.adopt-text p{
+.adopt-text p {
   text-align: center;
   line-height: 1.5em;
 }
@@ -92,4 +97,55 @@
 .upper-text {
   text-transform: uppercase;
   line-height: 1.5em;
+}
+
+/* ========= Footer Styles =============== */
+
+.footer {
+  background-color: #231f20;
+  min-height: 120px;
+  margin-top: 20px;
+  color: #BFC0C1;
+}
+
+.footer-logo {
+  width: 110px;
+}
+
+.footer-cols {
+  border-right: 1px solid #333333;
+}
+
+.footer-cols address {
+  padding-left: 20px;
+}
+
+.footer-cols address a {
+  color: #FFFFFF;
+}
+
+.col-md-3 address:hover, .col-md-3 address a:hover {
+  color:#ff827b;
+  text-decoration: none;
+}
+
+.inner-footer {
+  padding-top: 20px;
+}
+
+i {
+  padding-right: 6px;
+}
+
+.socialLink {
+  text-decoration: none !important;
+  color:#BFC0C1;
+}
+
+.socialLink:hover {
+  color:#ff827b;
+}
+
+.footer .text-center {
+  color:#4C4C4C;
 }
