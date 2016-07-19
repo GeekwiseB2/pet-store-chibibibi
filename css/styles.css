@@ -25,7 +25,7 @@
 .nav {
   font-size: 1.23em;
   border:none !important;
-  padding-top: 25px !important;
+  padding-top: 20px !important;
 }
 
 .nav li a {
@@ -129,6 +129,11 @@
   text-decoration: none;
 }
 
+.col-md-3 address a:hover {
+  color:#ff827b;
+  text-decoration: none;
+}
+
 .inner-footer {
   padding-top: 20px;
 }
@@ -148,4 +153,41 @@ i {
 
 .footer .text-center {
   color:#4C4C4C;
+}
+
+/*============= Contact Us Page ================ */
+
+.contactRow {
+  margin-top: 15px !important;
+  padding: 0px 15px !important;
+}
+
+.contact-doctor {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.thumbnailDoc {
+  padding:0px !important;
+}
+
+.thumbnailDoc.right-caption > img {
+    float: left;
+    margin-right: 25px;
+}
+
+.thumbnailDoc.right-caption {
+    float: left;
+}
+
+.thumbnailDoc.right-caption > .captionDoc {
+    padding: 4px;
+}
+
+table {
+  margin-top: 1.65em !important;
+}
+
+th, td {
+  font-size: 0.8em
 }
